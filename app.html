@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <div id="sectionhome">
+            <div class="bg-container">
+                <h1 class="mainheading">Popular book </h1>
+                <div class="topcard d-flex">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="imagekalam" />
+                    <div>
+                        <h1 class="topcardheading">Wings of fire</h1>
+                        <p class="topcardpara"> An Autobiography </br> of Abdul Kalam </p>
+                        <p class="publishername"> by Arun Tiwari </p>
+                        <button class=" button" onclick="display('sectionwingsoffire')"> Read Now</button>
+                    </div>
+                </div>
+                <h1 class="recommended-books"> Recommended-Books</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="bookicon" />
+                    <div class="d-flex flex-column">
+                        <p class="Recommended-Books-heading">The 3 mistakes of my life </br> An Autobiography </br> of Abdul Kalam </br> by Arun Tiwari </p>
+                        <button class=" button" onclick="display('section3mistakes')"> Read Now</button>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="bookicon" />
+                    <div class="d-flex flex-column">
+                        <p class="Recommended-Books-heading">Harry Potter </br> and the sorcerer's Stone </br> by J.K.Rowling </p>
+                        <button class=" button" onclick="display ('sectionharrypotter')"> Read Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionwingsoffire">
+        <div class="bg-container1">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="imagekalam" />
+            <div>
+                <h1 class="booktitle">Wings of fire</h1>
+                <p class="bookauthor"> by arun tiwari </p>
+                <p class="bookdescription">The Wings of Fire is an autobiography of former Indian President APJ Abdul Kalam. The book covers his life before he became the President of India and commanded the armed forces. Renowned scientist and former Indian President APJ Abdul Kalam from 2002 to 2007 is well known across India and abroad as well</p>
+                <button class="btn btn-warning" onclick="display('sectionhome')">Back</button>
+                <button class="btn btn-primary ">Buy now</button>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </div>
+    <div id="section3mistakes">
+        <div class="bg-container2">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="imagekalam" />
+            <div>
+                <h1 class="booktitle">The 3 mistakes of my life</h1>
+                <p class="bookauthor"> by chetan bhagat</p>
+                <p class="bookdescription"> The story recounts the life of three youths, Omi, Ishaan and Govind trying to make a life staying in small-town Gujarat. Given Govind's business acumen and Ishaan's love for cricket, the youngsters decide to open a shop that sells cricket goods.</p>
+                <button class="btn btn-warning" onclick="display('sectionhome')">Back</button>
+                <button class="btn btn-primary ">Buy now</button>
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionharrypotter">
+        <div class="bg-container3">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="imagekalam" />
+            <div>
+                <h1 class="booktitle">Harry Potter</h1>
+                <p class="bookauthor"> by J>K>Rowling</p>
+                <p class="bookdescription"> Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards.</p>
+                <button class="btn btn-warning" onclick="display('sectionhome')">Back</button>
+                <button class="btn btn-primary ">Buy now</button>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
